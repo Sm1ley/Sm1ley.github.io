@@ -5276,12 +5276,12 @@ a.list-group-item.active > .badge,
 .jumbotron {
   margin-bottom: 30px;
   font-size: 22.5px;
-  font-weight: 200;
+  font-weight: 50;
   line-height: 2.1428571435;
   color: inherit;
   background-color: #252525;
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .jumbotron h1 {
