@@ -5280,8 +5280,8 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: inherit;
   background-color: #252525;
-  padding-top:48px;
-  padding-bottom:48px;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 
 .jumbotron h1 {
@@ -5300,8 +5300,8 @@ a.list-group-item.active > .badge,
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .container .jumbotron {
     padding-right: 60px;
