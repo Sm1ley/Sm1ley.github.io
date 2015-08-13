@@ -4370,7 +4370,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-collapse {
   max-height: 340px;
-  padding-right: 15px;
+  padding-right: 30px;
   padding-left: 15px;
   overflow-x: visible;
   border-top: 1px solid transparent;
@@ -5280,8 +5280,8 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: inherit;
   background-color: #252525;
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 
 .jumbotron h1 {
@@ -5295,20 +5295,20 @@ a.list-group-item.active > .badge,
 
 .container .jumbotron {
   border-radius: 6px;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 70px;
+    padding-bottom: 10px;
   }
   .container .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
   }
   .jumbotron h1 {
-    font-size: 67.5px;
+    font-size: 50px;
   }
 }
 

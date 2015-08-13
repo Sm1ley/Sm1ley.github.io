@@ -10,23 +10,19 @@
         <meta name="description" content="Aaron Bishop blog">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+        <link rel="stylesheet" href="stylesheets/bootstrap.css">
         <style>
             body {
                 padding-top: 10px;
                 padding-bottom: 10px;
             }
             .avatar {
-              border-radius: 25%;
-              -webkit-border-radius: 25%;
-              -moz-border-radius:25%;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius:50%;
             }
         </style>
-        <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
-        <link rel="stylesheet" href="/stylesheets/main.css">
-
-        <script src="/javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
+        <script src="javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -43,7 +39,7 @@
           <a class="navbar-brand" href="/">Aaron Bishop</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="pages/contact">Contact</a></li>
             <li><a href="pages/blog">Blog</a></li>
             <li><a href="pages/projects">Projects</a></li>
@@ -53,21 +49,31 @@
     </div>
 
     <div class="jumbotron">
-      <div class="container" style="text-align:center;">
-        <img src="/images/moi.jpg" class="avatar"></img>
-        <h1>Hi, my name's Aaron</h1>
-        <p>and I like security.</p>
+      <div class="container">
+        <h2><img src="images/moi.jpg" class="avatar"></img> Hi, my name's Aaron ...</h2>
+        <p>I like to code and practice digital forensics & security.</p>
       </div>
     </div>
 
       <hr>
-
-      <footer>
+    <div style="text-align:center;" class="row">
+      <div  style="text-align:center;" class="row">
+        <div class="col-lg-6">
+          <h2><i class="icon-lock icon-2x"></i></h2>
+          <p><a class="btn btn-default" href="pages/blog">View blog &raquo;</a></p>
+        </div>
+        <div class="col-lg-6">
+          <h2><i class="icon-code icon-2x"></i></h2>
+          </h2>
+          <p><a class="btn btn-default" href="pages/projects">View projects &raquo;</a></p>
+       </div>
+      </div>
+    </div>
+      <footer style="text-align: center;">
         <p>&copy; Aaron Bishop 2015</p>
       </footer>
-    </div>
-        <script src="/javascripts/jquery.min.js"></script>
-        <script src="/javascripts/bootstrap.min.js"></script>
-        <script src="/javascripts/main.js"></script>
+        <script src="javascripts/jquery.min.js"></script>
+        <script src="javascripts/bootstrap.min.js"></script>
+        <script src="javascripts/main.js"></script>
     </body>
 </html>
